@@ -1,5 +1,7 @@
 module.exports = {
   root: true,
   extends: '@react-native',
-  parserOpts: { plugins: ["jsx"] }
+  parser: '@babel/eslint-parser',
+  parserOptions: {requireConfigFile: false},
+  parserOpts: {plugins: ['jsx']},
 };

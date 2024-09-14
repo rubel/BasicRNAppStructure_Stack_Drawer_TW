@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 export default function DrawerContent() {
   return (
     <SafeAreaView>
-      <Text>DrawerContent</Text>
+      <Text className='text-lg bg-pink-200'>DrawerContent</Text>
     </SafeAreaView>
   )
 }
