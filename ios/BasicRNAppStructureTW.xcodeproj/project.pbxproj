@@ -13,6 +13,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3FD8A0F5AE81D8930742D1B0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7B90202AE876153AD5B65678 /* PrivacyInfo.xcprivacy */; };
+		52E6A6032C95AD9800A5CCD4 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52E6A5EF2C95AD9800A5CCD4 /* Entypo.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,10 +41,11 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = BasicRNAppStructureTW/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-BasicRNAppStructureTW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicRNAppStructureTW.debug.xcconfig"; path = "Target Support Files/Pods-BasicRNAppStructureTW/Pods-BasicRNAppStructureTW.debug.xcconfig"; sourceTree = "<group>"; };
+		52E6A5EF2C95AD9800A5CCD4 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BasicRNAppStructureTW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicRNAppStructureTW.release.xcconfig"; path = "Target Support Files/Pods-BasicRNAppStructureTW/Pods-BasicRNAppStructureTW.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.debug.xcconfig"; path = "Target Support Files/Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests/Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-BasicRNAppStructureTW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicRNAppStructureTW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B90202AE876153AD5B65678 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = BasicRNAppStructureTW/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7B90202AE876153AD5B65678 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = BasicRNAppStructureTW/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BasicRNAppStructureTW/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.release.xcconfig"; path = "Target Support Files/Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests/Pods-BasicRNAppStructureTW-BasicRNAppStructureTWTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -111,6 +113,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52E6A6012C95AD9800A5CCD4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52E6A5EF2C95AD9800A5CCD4 /* Entypo.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +132,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				52E6A6012C95AD9800A5CCD4 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* BasicRNAppStructureTW */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BasicRNAppStructureTWTests */,
@@ -248,6 +260,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				52E6A6032C95AD9800A5CCD4 /* Entypo.ttf in Resources */,
 				3FD8A0F5AE81D8930742D1B0 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
