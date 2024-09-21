@@ -48,7 +48,7 @@ function StackNavigations() {
 const DrawerNavigations = () => {
   return (
     <Drawer.Navigator
-      drawerContent={DrawerContent}
+      drawerContent={props => <DrawerContent {...props} />}
       screenOptions={{headerShown: false}}>
       <Drawer.Screen name="Stack" component={StackNavigations} />
     </Drawer.Navigator>
